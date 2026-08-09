@@ -16,7 +16,7 @@
 # -----------------------------------------------------------------
 # NotengOS OTA update package
 
-NOTENG_TARGET_PACKAGE := $(PRODUCT_OUT)/NotengOS-$(NOTENG_VERSION).zip
+NOTENG_TARGET_PACKAGE := $(PRODUCT_OUT)/NotengOS_$(NOTENGOS_VERSION).zip
 
 MD5 := prebuilts/build-tools/path/$(HOST_PREBUILT_TAG)/md5sum
 
@@ -25,5 +25,5 @@ $(NOTENG_TARGET_PACKAGE): $(INTERNAL_OTA_PACKAGE_TARGET)
 	$(hide) $(MD5) $(NOTENG_TARGET_PACKAGE) | sed "s|$(PRODUCT_OUT)/||" > $(NOTENG_TARGET_PACKAGE).md5sum
 	@echo "Package Complete: $(NOTENG_TARGET_PACKAGE)" >&2
 
-.PHONY: notengos
-notengos: $(NOTENG_TARGET_PACKAGE) $(DEFAULT_GOAL)
+.PHONY: noteng
+noteng: $(NOTENG_TARGET_PACKAGE) $(DEFAULT_GOAL)
