@@ -1,0 +1,271 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "charger_battery_0",
+    filename: "battery_0.png",
+    src: "images/charger/battery_0.png",
+    relative_install_path: "res/images/charger",
+    product_specific: true,
+}
+prebuilt_etc {
+    name: "charger_battery_0_vendor",
+    filename: "battery_0.png",
+    src: "images/charger/battery_0.png",
+    relative_install_path: "res/images/charger",
+    proprietary: true,
+}
+prebuilt_etc {
+    name: "charger_battery_10",
+    filename: "battery_10.png",
+    src: "images/charger/battery_10.png",
+    relative_install_path: "res/images/charger",
+    product_specific: true,
+}
+prebuilt_etc {
+    name: "charger_battery_10_vendor",
+    filename: "battery_10.png",
+    src: "images/charger/battery_10.png",
+    relative_install_path: "res/images/charger",
+    proprietary: true,
+}
+prebuilt_etc {
+    name: "charger_battery_20",
+    filename: "battery_20.png",
+    src: "images/charger/battery_20.png",
+    relative_install_path: "res/images/charger",
+    product_specific: true,
+}
+prebuilt_etc {
+    name: "charger_battery_20_vendor",
+    filename: "battery_20.png",
+    src: "images/charger/battery_20.png",
+    relative_install_path: "res/images/charger",
+    proprietary: true,
+}
+prebuilt_etc {
+    name: "charger_battery_30",
+    filename: "battery_30.png",
+    src: "images/charger/battery_30.png",
+    relative_install_path: "res/images/charger",
+    product_specific: true,
+}
+prebuilt_etc {
+    name: "charger_battery_30_vendor",
+    filename: "battery_30.png",
+    src: "images/charger/battery_30.png",
+    relative_install_path: "res/images/charger",
+    proprietary: true,
+}
+prebuilt_etc {
+    name: "charger_battery_40",
+    filename: "battery_40.png",
+    src: "images/charger/battery_40.png",
+    relative_install_path: "res/images/charger",
+    product_specific: true,
+}
+prebuilt_etc {
+    name: "charger_battery_40_vendor",
+    filename: "battery_40.png",
+    src: "images/charger/battery_40.png",
+    relative_install_path: "res/images/charger",
+    proprietary: true,
+}
+prebuilt_etc {
+    name: "charger_battery_50",
+    filename: "battery_50.png",
+    src: "images/charger/battery_50.png",
+    relative_install_path: "res/images/charger",
+    product_specific: true,
+}
+prebuilt_etc {
+    name: "charger_battery_50_vendor",
+    filename: "battery_50.png",
+    src: "images/charger/battery_50.png",
+    relative_install_path: "res/images/charger",
+    proprietary: true,
+}
+prebuilt_etc {
+    name: "charger_battery_60",
+    filename: "battery_60.png",
+    src: "images/charger/battery_60.png",
+    relative_install_path: "res/images/charger",
+    product_specific: true,
+}
+prebuilt_etc {
+    name: "charger_battery_60_vendor",
+    filename: "battery_60.png",
+    src: "images/charger/battery_60.png",
+    relative_install_path: "res/images/charger",
+    proprietary: true,
+}
+prebuilt_etc {
+    name: "charger_battery_70",
+    filename: "battery_70.png",
+    src: "images/charger/battery_70.png",
+    relative_install_path: "res/images/charger",
+    product_specific: true,
+}
+prebuilt_etc {
+    name: "charger_battery_70_vendor",
+    filename: "battery_70.png",
+    src: "images/charger/battery_70.png",
+    relative_install_path: "res/images/charger",
+    proprietary: true,
+}
+prebuilt_etc {
+    name: "charger_battery_80",
+    filename: "battery_80.png",
+    src: "images/charger/battery_80.png",
+    relative_install_path: "res/images/charger",
+    product_specific: true,
+}
+prebuilt_etc {
+    name: "charger_battery_80_vendor",
+    filename: "battery_80.png",
+    src: "images/charger/battery_80.png",
+    relative_install_path: "res/images/charger",
+    proprietary: true,
+}
+prebuilt_etc {
+    name: "charger_battery_90",
+    filename: "battery_90.png",
+    src: "images/charger/battery_90.png",
+    relative_install_path: "res/images/charger",
+    product_specific: true,
+}
+prebuilt_etc {
+    name: "charger_battery_90_vendor",
+    filename: "battery_90.png",
+    src: "images/charger/battery_90.png",
+    relative_install_path: "res/images/charger",
+    proprietary: true,
+}
+prebuilt_etc {
+    name: "charger_battery_100",
+    filename: "battery_100.png",
+    src: "images/charger/battery_100.png",
+    relative_install_path: "res/images/charger",
+    product_specific: true,
+}
+prebuilt_etc {
+    name: "charger_battery_100_vendor",
+    filename: "battery_100.png",
+    src: "images/charger/battery_100.png",
+    relative_install_path: "res/images/charger",
+    proprietary: true,
+}
+prebuilt_etc {
+    name: "charger_battery_fail",
+    filename: "battery_fail.png",
+    src: "images/charger/battery_fail.png",
+    relative_install_path: "res/images/charger",
+    product_specific: true,
+}
+prebuilt_etc {
+    name: "charger_battery_fail_vendor",
+    filename: "battery_fail.png",
+    src: "images/charger/battery_fail.png",
+    relative_install_path: "res/images/charger",
+    proprietary: true,
+}
+prebuilt_etc {
+    name: "charger_battery_scale",
+    filename: "battery_scale.png",
+    src: "images/charger/battery_scale.png",
+    relative_install_path: "res/images/charger",
+    product_specific: true,
+}
+prebuilt_etc {
+    name: "charger_battery_scale_vendor",
+    filename: "battery_scale.png",
+    src: "images/charger/battery_scale.png",
+    relative_install_path: "res/images/charger",
+    proprietary: true,
+}
+prebuilt_etc {
+    name: "charger_percent_font",
+    filename: "percent_font.png",
+    src: "images/charger/percent_font.png",
+    relative_install_path: "res/images/charger",
+    product_specific: true,
+}
+prebuilt_etc {
+    name: "charger_percent_font_vendor",
+    filename: "percent_font.png",
+    src: "images/charger/percent_font.png",
+    relative_install_path: "res/images/charger",
+    proprietary: true,
+}
+
+prebuilt_etc {
+    name: "charger_animation",
+    filename: "animation.txt",
+
+    required: [
+        "charger_battery_fail",
+        "charger_battery_scale",
+        "charger_percent_font",
+    ],
+    src: "values/charger/animation.txt",
+    relative_install_path: "res/values/charger",
+    product_specific: true,
+}
+
+prebuilt_etc {
+    name: "charger_animation_vendor",
+    filename: "animation.txt",
+
+    required: [
+        "charger_battery_fail_vendor",
+        "charger_battery_scale_vendor",
+        "charger_percent_font_vendor",
+    ],
+    src: "values/charger/animation.txt",
+    relative_install_path: "res/values/charger",
+    proprietary: true,
+}
+
+phony {
+    name: "noteng_charger",
+    required: [
+        "charger_animation",
+        "charger_battery_0",
+        "charger_battery_10",
+        "charger_battery_20",
+        "charger_battery_30",
+        "charger_battery_40",
+        "charger_battery_50",
+        "charger_battery_60",
+        "charger_battery_70",
+        "charger_battery_80",
+        "charger_battery_90",
+        "charger_battery_100",
+        "charger_battery_fail",
+        "charger_battery_scale",
+        "charger_percent_font",
+    ],
+}
+
+phony {
+    name: "noteng_charger_vendor",
+    required: [
+        "charger_animation_vendor",
+        "charger_battery_0_vendor",
+        "charger_battery_10_vendor",
+        "charger_battery_20_vendor",
+        "charger_battery_30_vendor",
+        "charger_battery_40_vendor",
+        "charger_battery_50_vendor",
+        "charger_battery_60_vendor",
+        "charger_battery_70_vendor",
+        "charger_battery_80_vendor",
+        "charger_battery_90_vendor",
+        "charger_battery_100_vendor",
+        "charger_battery_fail_vendor",
+        "charger_battery_scale_vendor",
+        "charger_percent_font_vendor",
+    ],
+}

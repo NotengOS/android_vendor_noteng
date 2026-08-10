@@ -7,5 +7,11 @@ include vendor/noteng/config/bootanimation.mk
 PRODUCT_PACKAGES += \
     FrameworkOverlayNoteng
 
+# Charger
+WITH_LINEAGE_CHARGER := false
+PRODUCT_PACKAGES += \
+    noteng_charger \
+    noteng_charger_vendor
+
 # Version
 include vendor/noteng/config/version.mk
