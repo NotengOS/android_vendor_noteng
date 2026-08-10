@@ -16,6 +16,12 @@ function check_product()
     fi
     export NOTENG_BUILD
 
+    if [ -n "$NOTENG_BUILD" ]; then
+        export WITH_LINEAGE_CHARGER=false
+    else
+        unset WITH_LINEAGE_CHARGER
+    fi
+
         TARGET_PRODUCT=$1 \
         TARGET_RELEASE=$2 \
         TARGET_BUILD_VARIANT= \
