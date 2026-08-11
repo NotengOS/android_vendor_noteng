@@ -3,6 +3,9 @@
 # Bootanimation
 include vendor/noteng/config/bootanimation.mk
 
+# Nothing
+include vendor/noteng/config/noteng.mk
+
 # Overlay
 PRODUCT_PACKAGES += \
     FrameworkOverlayNoteng
