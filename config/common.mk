@@ -16,5 +16,11 @@ PRODUCT_PACKAGES += \
     noteng_charger \
     noteng_charger_vendor
 
+# Inter Font
+$(call inherit-product-if-exists, external/google-fonts/inter/fonts.mk)
+PRODUCT_PACKAGES += \
+    fonts_customization.xml \
+    FontInterOverlay
+
 # Version
 include vendor/noteng/config/version.mk
