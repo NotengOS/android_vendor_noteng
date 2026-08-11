@@ -1,31 +1,25 @@
-# animation: num_cycles, first_frame_repeats, animation_file
 animation: 7 1 charger/battery_scale
-
-# percent_display: text_percent_pos_x, text_percent_pos_y, color_r, color_g, color_b, color_a, font_file
-percent_display: c c 255 255 255 255 charger/percent_font
-
+percent_display: c 1020 255 255 255 255 charger/percent_font
 fail: charger/battery_fail
-
-# frame: disp_time min_level max_level
-frame: 500 0 9        # pair 0
 frame: 500 0 9
-frame: 500 10 19      # pair 1
+frame: 500 0 9
 frame: 500 10 19
-frame: 500 20 29      # pair 2
+frame: 500 10 19
 frame: 500 20 29
-frame: 500 30 39      # pair 3
+frame: 500 20 29
 frame: 500 30 39
-frame: 500 40 49      # pair 4
+frame: 500 30 39
 frame: 500 40 49
-frame: 500 50 59      # pair 5
+frame: 500 40 49
 frame: 500 50 59
-frame: 500 60 69      # pair 6
+frame: 500 50 59
 frame: 500 60 69
-frame: 500 70 79      # pair 7
+frame: 500 60 69
 frame: 500 70 79
-frame: 500 80 89      # pair 8
+frame: 500 70 79
 frame: 500 80 89
-frame: 500 90 99      # pair 9
+frame: 500 80 89
 frame: 500 90 99
-frame: 1000 100 100   # pair 10
+frame: 500 90 99
+frame: 1000 100 100
 frame: 1000 100 100
