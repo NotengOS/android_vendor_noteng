@@ -1,3 +1,6 @@
+# Nothing Launcher
+$(call inherit-product, vendor/nothing/launcher/products/Launcher.mk)
+
 # Nothing Sounds
 $(call inherit-product, vendor/nothing/sounds/products/Sounds.mk)
 
